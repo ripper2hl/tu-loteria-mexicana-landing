@@ -1,48 +1,47 @@
 # ====================================================
 # Page Meta
 # ====================================================
-page_title: My Awesome App                       # Optional. Defaults to app_name if empty
+page_title                            : Tu Lotería Mexicana
 
 
 # ====================================================
 # App Info
 # ====================================================
-playstore_link: https://play.google.com/store/apps/details?id=com.example.myapp
-presskit_download_link:                         # Optional. e.g. assets/presskit.zip
+playstore_link                        : https://play.google.com/store/apps/details?id=com.perales.tuloteria
+presskit_download_link:               # Optional. e.g. assets/presskit.zip
 
-app_icon: assets/appicon.png
-app_name: My Awesome App
-app_price: Free
-app_description: A beautifully simple app that helps users get things done faster.
+app_icon                              : assets/appicon.png
+app_name                              : Tu Lotería Mexicana
+app_price                             : Gratis
+# Combiné el Tagline y la Descripción para un impacto inmediato en el Hero Section
+app_description                       : ¡Corre y se va! La tradición en la palma de tu mano. Deja que la app baraje y cante las cartas por ti con una voz clara y profesional.
 
 
 # ====================================================
 # Localization & Dynamic Content
 # ====================================================
-price_text: "Free"                              # Text shown instead of price
-changelog_title: "What’s New"
-latest_changes:                                 # Supports markdown or plain text
-  - Initial release
-  - Performance improvements
-  - UI polish
+price_text: "Gratis"
+changelog_title                       : Novedades
+latest_changes                        : ¡Lanzamiento Oficial v1.0! 🚀<br><br>Hemos digitalizado la tradición con funciones premium:<br><br>🎙️ <b>Canto de Voz Profesional:</b> Olvídate de quedarte ronco, la app canta por ti.<br>🔀 <b>Barajeo Certificado:</b> Algoritmo de aleatoriedad para partidas siempre justas.<br>🌑 <b>Modo Oscuro Nativo:</b> Ideal para jugar de noche sin cansar la vista.<br>⚡ <b>Optimización Total:</b> Carga instantánea y mínimo consumo de batería.<br><br>¡Descárgala y que empiece la diversión!
 
 
 # ====================================================
 # Author / Company Info (Footer)
 # ====================================================
-your_name: Your Name or Company
-your_link: https://yourwebsite.com
-your_city: Your City
-email_address: contact@yourdomain.com
+your_name                             : Israel Perales
+your_link: http://www.israel-perales.com
+your_city: Apodaca, Nuevo León, México
+email_address:                        # Agrega tu correo aquí si deseas contacto directo
 
 linkedin_username:
 linkedin_company:
 facebook_username:
-instagram_username:
-twitter_username:
-github_username:
+instagram_username: ripper2hl
+twitter_username: ripper2hl
+github_username: ripper2hl
 youtube_username:
 mastodon_link:
+# Telegram no es soportado nativamente por este tema por defecto, pero tus otras redes están cubiertas.
 
 
 # ====================================================
@@ -50,59 +49,61 @@ mastodon_link:
 # ====================================================
 features:
 
-  - title: Fast & Lightweight
-    description: Optimized for speed and low resource usage.
+  - title: Canto Automático
+    description: Voz sintetizada que narra cada carta para que nadie tenga que dejar de jugar.
+    fontawesome_icon_name: bullhorn
+
+  - title: Barajeo Inteligente
+    description: Algoritmo aleatorio que garantiza partidas justas y variadas siempre.
+    fontawesome_icon_name: random
+
+  - title: Historial en Vivo
+    description: Revisa las cartas que ya pasaron para evitar dudas en el grito de ¡Lotería!
+    fontawesome_icon_name: history
+
+  - title: Control Total
+    description: Pausa, reanuda o ajusta la velocidad del canto según el ritmo de tu familia.
+    fontawesome_icon_name: play-circle
+
+  - title: Optimización Extrema
+    description: App ligera, rápida y diseñada para no agotar tu batería.
     fontawesome_icon_name: bolt
 
-  - title: Clean Interface
-    description: Modern, minimal UI focused on usability.
-    fontawesome_icon_name: mobile-alt
-
-  - title: Offline Ready
-    description: Works even when you’re not connected.
-    fontawesome_icon_name: wifi-slash
-
-  - title: Easy to Configure
-    description: Customize everything from a single config file.
-    fontawesome_icon_name: sliders-h
-
-  - title: Secure by Design
-    description: Built with best practices for user safety.
-    fontawesome_icon_name: lock
-
-  - title: Free to Use
-    description: No hidden costs or subscriptions.
-    fontawesome_icon_name: star
+  - title: Modo Oscuro Nativo
+    description: Interfaz moderna que cuida tu vista en reuniones nocturnas.
+    fontawesome_icon_name: moon
 
 
 # ====================================================
 # Theme Settings
 # ====================================================
-topbar_color: "#000000"
-topbar_transparency: 0.1
-topbar_title_color: "#ffffff"
+# Paleta de colores Dark Mode Premium
+
+topbar_color: "#121212"
+topbar_transparency: 0.95
+topbar_title_color: "#FFC107"
 
 cover_image: assets/headerimage.png
-cover_overlay_color: "#363b3d"
-cover_overlay_transparency: 0.8
+cover_overlay_color: "#000000"
+cover_overlay_transparency: 0.6
 
-device_color: black                             # Options: blue, black, yellow, coral, white
+device_color: black
 
-body_background_color: "#ffffff"
-link_color: "#1d63ea"
+body_background_color: "#121212"
+link_color: "#FFC107"
 
-app_title_color: "#ffffff"
-app_price_color: "#ffffff"
-app_description_color: "#ffffff"
+app_title_color: "#FFC107"
+app_price_color: "#FFFFFF"
+app_description_color: "#E0E0E0"
 
-feature_title_color: "#000000"
-feature_text_color: "#666666"
+feature_title_color: "#FFC107"
+feature_text_color: "#CCCCCC"
 
-feature_icons_foreground_color: "#1d63ea"
-feature_icons_background_color: "#e6e6e6"
+feature_icons_foreground_color: "#FFC107"
+feature_icons_background_color: "#1E1E1E" # Gris elevado para dar profundidad
 
-social_icons_foreground_color: "#666666"
-social_icons_background_color: "#e6e6e6"
+social_icons_foreground_color: "#FFFFFF"
+social_icons_background_color: "#1E1E1E"
 
 footer_text_color: "#666666"
 
