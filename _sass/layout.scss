@@ -349,8 +349,21 @@ nav>ul li a:active {
 }
 
 .playStore {
-	height: 75px;
-	margin-right: 24px;
+height: 75px;
+    margin-right: 24px;
+    
+    // Agregamos el halo con el amarillo principal (#FFC107)
+    // Usamos un alpha de 0.4 para que sea sutil pero visible
+    filter: drop-shadow(0 0 12px rgba(255, 193, 7, 0.4));
+    
+    // Transición suave para el hover
+    transition: filter 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+        // Al pasar el mouse, el halo brilla más y el botón crece un poco
+        filter: drop-shadow(0 0 18px rgba(255, 193, 7, 0.7));
+        transform: scale(1.03);
+    }
 }
 
 @media only screen and (max-width: 992px) {
