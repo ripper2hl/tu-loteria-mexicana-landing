@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="{{ page.lang | default: site.lang | default: 'es-MX' }}">
 
 {% include head.html %}
 
@@ -25,7 +25,7 @@
                         </video>
                     </div>
 
-                    <img class="iphoneScreen hidden" src="" alt="">
+                    <img class="iphoneScreen hidden" src="" alt="Pantalla del juego de Lotería Mexicana en Android">
 
                     {% include screencontent.html %}
 
@@ -41,7 +41,7 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                        <img class="appIconLarge" src="{{ site.app_icon | relative_url }}" alt="Ícono de la app Tu Lotería Mexicana">
                     </div>
                     <div class="appNamePriceContainer">
                         <h1 class="appName">
@@ -57,8 +57,8 @@
                         </p>
                     </div>
                     <div class="downloadButtonsContainer">
-                        <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore"
-                                src="assets/playstore.png"></a>
+                        <a class="playStoreLink" href="{{site.playstore_link}}" title="Descargar Tu Lotería Mexicana en Google Play" aria-label="Descargar Tu Lotería Mexicana en Google Play Store"><img class="playStore"
+                                src="assets/playstore.png" alt="Google Play Store"></a>
                     </div>
                 </div>
                 {% include features.html %}

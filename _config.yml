@@ -1,7 +1,11 @@
 # ====================================================
 # Page Meta
 # ====================================================
-page_title                            : Tu Lotería Mexicana
+page_title                            : Tu Lotería Mexicana – Juego de Lotería para Jugar en Familia
+title                                 : Tu Lotería Mexicana – Juego de Lotería para Jugar en Familia
+description                           : Juego de Lotería Mexicana gratis para jugar en familia. Baraja automática y voz que canta cada carta sin apuestas y sin conexión a internet. Ideal para reuniones familiares.
+url                                   : https://loteria.israel-perales.com
+lang                                  : es-MX
 
 
 # ====================================================
@@ -14,7 +18,7 @@ app_icon                              : assets/appicon.png
 app_name                              : Tu Lotería Mexicana
 app_price                             : Gratis
 # Combiné el Tagline y la Descripción para un impacto inmediato en el Hero Section
-app_description                       : ¡Corre y se va! La tradición en la palma de tu mano. Deja que la app baraje y cante las cartas por ti con una voz clara y profesional.
+app_description                       : Tu Lotería Mexicana es un juego tradicional en versión digital que baraja y canta las cartas automáticamente. Está pensada para jugar en familia o con amigos, sin apuestas y sin necesidad de conexión a internet.
 
 
 # ====================================================
@@ -29,7 +33,7 @@ latest_changes                        : ¡Lanzamiento Oficial v1.0! 🚀<br><br>
 # Author / Company Info (Footer)
 # ====================================================
 your_name                             : Israel Perales
-your_link: http://www.israel-perales.com
+your_link: https://www.israel-perales.com
 your_city: Apodaca, Nuevo León, México
 email_address:                        # Agrega tu correo aquí si deseas contacto directo
 
@@ -50,28 +54,27 @@ mastodon_link:
 features:
 
   - title: Canto Automático
-    description: Voz sintetizada que narra cada carta para que nadie tenga que dejar de jugar.
+    description: Voz clara que canta cada carta sin que tengas que esforzarte. Disfruta más el juego con familia y amigos.
     fontawesome_icon_name: bullhorn
 
-  - title: Barajeo Inteligente
-    description: Algoritmo aleatorio que garantiza partidas justas y variadas siempre.
+  - title: Barajeo Justo y Aleatorio
+    description: Barajeo completamente aleatorio para que todos tengan la misma oportunidad de ganar.
     fontawesome_icon_name: random
 
   - title: Historial en Vivo
-    description: Revisa las cartas que ya pasaron para evitar dudas en el grito de ¡Lotería!
+    description: Ve las cartas que salieron para no dudar al gritar ¡Lotería!
     fontawesome_icon_name: history
 
   - title: Control Total
-    description: Pausa, reanuda o ajusta la velocidad del canto según el ritmo de tu familia.
+    description: Pausa, reanuda o cambia la velocidad del juego. La experiencia es tuya.
     fontawesome_icon_name: play-circle
 
-  - title: Optimización Extrema
-    description: App ligera, rápida y diseñada para no agotar tu batería.
+  - title: Juega Sin Internet
+    description: Sin conexión a datos. Juega en el coche, en el parque o donde quieras.
     fontawesome_icon_name: bolt
 
-  - title: Modo Oscuro Nativo
-    description: Interfaz moderna que cuida tu vista en reuniones nocturnas.
-    fontawesome_icon_name: moon
+  - title: Modo Oscuro
+    description: Interface moderna que cuida tu vista. Perfecta para reuniones de noche.
 
 
 # ====================================================
